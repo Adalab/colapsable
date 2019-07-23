@@ -1,0 +1,23 @@
+.container {
+  border: 1px solid red;
+  padding: 10px;
+}
+.container__click {
+  background-color: red;
+}
+.container__container {
+  border: 1px solid blue;
+  display: none;
+}
+
+.container--open {
+  border-color: blue;
+}
+
+.container--open .container__click {
+  background-color: blue;
+}
+
+.container--open .container__container {
+  display: block;
+}
